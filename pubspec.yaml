@@ -1,0 +1,44 @@
+name: rrar_s_application2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Noto Kufi Arabic
+      fonts: 
+        - asset: assets/fonts/NotoKufiArabicMedium.ttf
+          weight: 500
+        - asset: assets/fonts/NotoKufiArabicRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoKufiArabicBold.ttf
+          weight: 700
+    - family: Cairo
+      fonts: 
+        - asset: assets/fonts/CairoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/CairoBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
